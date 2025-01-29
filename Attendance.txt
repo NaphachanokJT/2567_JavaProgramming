@@ -1,4 +1,4 @@
 studentId : 2413110707
 studentName : Naphachanok junto
-Topic : Encapsulation Concept
-Date : 1/22/2025
+Topic : Array Object / Composition Concept
+Date : 1/29/2025
