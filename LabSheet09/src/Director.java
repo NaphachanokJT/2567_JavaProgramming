@@ -1,0 +1,45 @@
+
+public class Director {
+	
+	private String name;
+	private String email;
+	private char gender;
+	
+	public Director(String name, String email, char gender) {
+		this.name = name;
+		this.email = email;
+		this.gender = gender;
+	}
+	
+	public Director(String name, String email) {
+		this.name = name;
+		this.email = email;
+		this.gender = ' ';
+	}
+	
+	public String getName() {
+		return this.name;
+	}
+	
+	public String getEmail() {
+		return this.email;
+	}
+	
+	public char getGender() {
+		return this.gender;
+	}
+	
+	public String getGenderName() {
+		if (gender == 'M' || gender == 'm') {
+			return "Male";
+			}
+			if (gender == 'F' || gender == 'f') {
+			return "Female";
+			}
+			return null;
+	}
+	
+	public String toString() {
+		return name + " (" + email + ";" + getGenderName() + ")";
+	}
+}
